@@ -72,8 +72,6 @@ func main() {
 
 	log.Printf("starting attack")
 
-	log.Printf("RATE= %d", uint64(IntEnv("RATE", 0)))
-	log.Printf("DURATION= %d", uint64(IntEnv("DURATION", 0)))
 	//for {
 	//start := time.Now()
 	attacker := vegeta.NewAttacker(
