@@ -1,4 +1,4 @@
-module github.com/middleware-labs/apigen
+module github.com/rajuj6/apigen
 
 go 1.19
 
